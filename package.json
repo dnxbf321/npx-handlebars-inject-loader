@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "a special loader for deng-npx, use with handlebars-loader",
   "main": "index.js",
+  "homepage": "https://github.com/dnxbf321/npx-handlebars-inject-loader#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://dnxbf321@github.com/dnxbf321/npx-handlebars-inject-loader.git"
+  },
+  "author": "Jason Deng",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

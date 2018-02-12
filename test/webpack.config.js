@@ -1,8 +1,8 @@
 /*
 * @Author: tungjason
 * @Date:   2018-02-09 15:02:50
-* @Last Modified by:   tungjason
-* @Last Modified time: 2018-02-12 10:35:10
+* @Last Modified by:   dengjiayao
+* @Last Modified time: 2018-02-12 13:25:59
 */
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -28,7 +28,8 @@ module.exports = {
           {
             loader: 'handlebars-loader',
             options: {
-              partialDirs: [path.join(__dirname, 'partial')]
+              partialDirs: [path.join(__dirname, 'partial')],
+              helperDirs: [path.join(__dirname, 'helper')]
             }
           },
           {
